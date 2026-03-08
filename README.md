@@ -26,10 +26,13 @@ Once generated, the images will be moved to an S3 bucket for storage and deleted
 Instructions to reproduce the project can be found in docs subfolder.
 
 ## Results
-S3 bucket after using CLI App twice:
+
+Generated images were moved into S3 bucket. 
+
 ![S3 bucket after using CLI App twice](img/S3-results.png)
 
-Example of output image:
+Here is a simple example of image produced:
+
 ![Example of output image](img/output_example.png)
 
 ## Possible improvements
