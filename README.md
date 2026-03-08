@@ -26,13 +26,13 @@ Once generated, the images will be moved to an S3 bucket for storage and deleted
 Instructions to reproduce the project can be found in docs subfolder.
 
 ## Results
-
+S3 bucket after using CLI App twice:
 ![S3 bucket after using CLI App twice](img/S3-results.png)
 
+Example of output image:
 ![Example of output image](img/output_example.png)
 
 ## Possible improvements
-
 - The shell script used to set up the EC2 instance doesn't fully work, so some things were fixed manually. The problem was with either pip or pip3
 - If more users were added, the code that produces filenames should be adapted to avoid overwriting files
 - The project as it is lacks scalability
